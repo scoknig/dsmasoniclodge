@@ -1,0 +1,52 @@
+/* your styles go here */
+
+.calendar {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.calendar iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+figcaption {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #999999;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.footer__block p {
+    color: #555555;
+}
+
+.footer__block li a {
+    color: #555555;
+}
+
+.intro-text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.navbar a.navbar-brand {
+    color: #000000;
+}
+
+.square-compasses {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    max-width: 125px;
+    max-height: 125px;
+    margin: auto;
+    padding-top: 20px;
+}
