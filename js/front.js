@@ -13,6 +13,11 @@ function layouts() {
     $('#head').load('layouts/head.html');
     $('#nav').load('layouts/nav.html');
     $('#footer').load('layouts/footer.html');
+    $("#gallery").justifiedGallery({
+        rowHeight : 200,
+        lastRow : 'justify',
+        margins : 5
+    });
 }
 
 function demo() {
